@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Test group a(failed)">
+    <groups>
+      <run>
+        <include name="a"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Swag_Labs.Multiple_TestCase">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- Swag_Labs.Multiple_TestCase -->
+    </classes>
+  </test> <!-- Test group a(failed) -->
+</suite> <!-- Failed suite [Suite] -->

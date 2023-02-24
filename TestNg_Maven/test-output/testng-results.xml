@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-23T16:24:33 EST" name="Suite" finished-at="2023-02-23T16:24:42 EST" duration-ms="8814">
+    <groups>
+      <group name="a">
+        <method signature="Multiple_TestCase.Test1()[pri:0, instance:Swag_Labs.Multiple_TestCase@2145b572]" name="Test1" class="Swag_Labs.Multiple_TestCase"/>
+        <method signature="Multiple_TestCase.Test3()[pri:0, instance:Swag_Labs.Multiple_TestCase@2145b572]" name="Test3" class="Swag_Labs.Multiple_TestCase"/>
+      </group> <!-- a -->
+      <group name="b">
+        <method signature="Multiple_TestCase.Test1()[pri:0, instance:Swag_Labs.Multiple_TestCase@2145b572]" name="Test1" class="Swag_Labs.Multiple_TestCase"/>
+      </group> <!-- b -->
+    </groups>
+    <test started-at="2023-02-23T16:24:33 EST" name="Test group a" finished-at="2023-02-23T16:24:42 EST" duration-ms="8814">
+      <class name="Swag_Labs.Multiple_TestCase">
+        <test-method signature="Test1()[pri:0, instance:Swag_Labs.Multiple_TestCase@2145b572]" started-at="2023-02-23T16:24:34 EST" name="Test1" finished-at="2023-02-23T16:24:42 EST" duration-ms="8249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test3()[pri:0, instance:Swag_Labs.Multiple_TestCase@2145b572]" started-at="2023-02-23T16:24:34 EST" name="Test3" finished-at="2023-02-23T16:24:42 EST" duration-ms="8578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+      </class> <!-- Swag_Labs.Multiple_TestCase -->
+    </test> <!-- Test group a -->
+  </suite> <!-- Suite -->
+</testng-results>
