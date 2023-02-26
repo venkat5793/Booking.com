@@ -18,7 +18,7 @@ public class Swag_Labs_Main {
 	public WebDriver Browser = null;
 	
 	
-  @BeforeMethod
+  @BeforeTest
   public void Launch() {
 	  System.setProperty("webdriver.chrome.driver",User_Dir+"/Webdrivers/chromedriver.exe");
 	  Browser = new ChromeDriver();
