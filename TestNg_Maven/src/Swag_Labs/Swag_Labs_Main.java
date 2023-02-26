@@ -41,7 +41,7 @@ public class Swag_Labs_Main {
 	 
   }
   
-  @AfterMethod
+  @AfterTest
   public void Exit() {
 
 	  Browser.close();
